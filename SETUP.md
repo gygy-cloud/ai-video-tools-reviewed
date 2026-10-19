@@ -95,35 +95,36 @@ npm run check        # 只检查不写盘，看哪些链接没配
 
 ---
 
-## 五、部署到 GitHub Pages
+## 五、部署到 GitHub Pages（已完成）
 
-### 第 1 步：创建仓库并推送
+仓库已建好并配置完毕：
 
-在 GitHub 上新建一个仓库（**public** 才能免费用 Pages），然后在本地执行：
+| 项目 | 值 |
+|---|---|
+| 仓库 | https://github.com/gygy-cloud/ai-video-tools-reviewed |
+| 可见性 | public（Pages 免费版必须公开） |
+| 默认分支 | `main` |
+| Pages 源 | GitHub Actions（`build_type: workflow`） |
+| 线上地址 | https://gygy-cloud.github.io/ai-video-tools-reviewed/ |
+| git remote | `origin` 已指向该仓库 |
+| 凭据 | 已存入 Windows 凭据管理器，`git push` 免密 |
+
+**之后每次更新**：`git push` 到 main 就自动重新构建部署。每周自动化提交文章后会自动触发，你什么都不用做。
+
+### 首次部署注意
+
+建仓库时 GitHub Actions 正好处于 `degraded_performance` 降级状态，首个工作流可能长时间停在 `queued`。这是 GitHub 侧问题，恢复后会自动执行，不需要你做任何操作。想手动触发可以在 Actions 页面点 `Run workflow`。
+
+### 如果以后要换仓库名
+
+在仓库 Settings 里改名，然后本地更新 remote：
 
 ```bash
-git remote add origin https://github.com/你的用户名/你的仓库名.git
-git branch -M main
-git push -u origin main
+git remote set-url origin https://github.com/你的用户名/新仓库名.git
 ```
 
-### 第 2 步：打开 Pages
+Pages 地址会跟着变，需要在 Settings → Pages 里确认一次。
 
-仓库页面 → **Settings** → 左侧 **Pages** → **Build and deployment** → **Source** 选 **GitHub Actions**
-
-不需要选分支，不需要填目录 —— 工作流会自己上传 `site/` 目录。
-
-### 第 3 步：等第一次部署
-
-回到 **Actions** 标签页，会看到 `Build & Deploy Site` 正在跑。约 1 分钟后完成，访问：
-
-```
-https://你的用户名.github.io/你的仓库名/
-```
-
-### 之后每次更新
-
-`git push` 到 main 就自动重新构建部署。**每周自动化提交文章后会自动触发**，你什么都不用做。
 
 ---
 
@@ -141,6 +142,16 @@ https://你的用户名.github.io/你的仓库名/
 ---
 
 ## 七、常见问题
+
+**Q：`git push` 报 `CONNECT tunnel failed, response 502` 或连接超时？**
+本机有两套代理，指向不同的端口：
+
+| 来源 | 地址 | 能否访问 github.com |
+|---|---|---|
+| 环境变量 `HTTP_PROXY`/`HTTPS_PROXY`（命令行默认使用） | `127.0.0.1:65280` | ❌ 被拒 |
+| Windows 系统代理（Chrome 使用） | `127.0.0.1:7897` | ✅ 正常 |
+
+已经执行过 `git config --global http.proxy http://127.0.0.1:7897`，git 配置优先级高于环境变量，所以 `git push` 正常。**如果换了网络环境或代理端口变了，重新执行这条命令即可。**
 
 **Q：构建报「未识别的占位符」？**
 占位符里的 slug 在 `.affiliate-links.json` 的 `programs` 里不存在。检查拼写，或先在配置里加一条。
