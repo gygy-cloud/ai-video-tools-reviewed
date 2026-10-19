@@ -1,0 +1,151 @@
+{
+  "_readme": [
+    "联盟链接配置文件 —— 注入机制的唯一数据源。",
+    "用法：把每个项目的 url 换成你在后台拿到的专属追踪链接（形如 https://zebracat.ai/?fpr=abc123）。",
+    "url 为空时，构建会自动降级到 fallback（官方主页），并在构建日志里列为「未配置」。",
+    "matchPatterns 用于自动改写正文里已有的平台链接：只要链接包含其中任一字符串，就替换成你的追踪链接。",
+    "改完这个文件后重新构建（npm run build）即生效，不需要动任何文章内容。"
+  ],
+  "site": {
+    "name": "AI Video Tools Reviewed",
+    "tagline": "Independent reviews of AI video tools — real pricing, commission terms, and the catches vendors bury in the fine print.",
+    "baseUrl": "",
+    "author": "",
+    "lang": "en"
+  },
+  "programs": {
+    "picturesque": {
+      "name": "Picturesque AI",
+      "url": "",
+      "fallback": "https://aipicturesque.com/",
+      "matchPatterns": [
+        "affiliates.creem.io/join/picturesque-partners",
+        "aipicturesque.com"
+      ]
+    },
+    "adcreative": {
+      "name": "AdCreative.ai",
+      "url": "",
+      "fallback": "https://www.adcreative.ai/",
+      "matchPatterns": [
+        "adcreative.ai"
+      ]
+    },
+    "storylab": {
+      "name": "StoryLab.ai",
+      "url": "",
+      "fallback": "https://storylab.ai/",
+      "matchPatterns": [
+        "storylab.ai"
+      ]
+    },
+    "zebracat": {
+      "name": "Zebracat",
+      "url": "",
+      "fallback": "https://www.zebracat.ai/",
+      "matchPatterns": [
+        "zebracat.ai"
+      ]
+    },
+    "vidai": {
+      "name": "Vid.AI",
+      "url": "",
+      "fallback": "https://vid.ai/",
+      "matchPatterns": [
+        "vid.ai"
+      ]
+    },
+    "pictory": {
+      "name": "Pictory AI",
+      "url": "",
+      "fallback": "https://pictory.ai/",
+      "matchPatterns": [
+        "pictory.ai",
+        "pictory.com"
+      ]
+    },
+    "quso": {
+      "name": "quso.ai",
+      "url": "",
+      "fallback": "https://quso.ai/",
+      "matchPatterns": [
+        "quso.ai",
+        "vidyo.ai"
+      ]
+    },
+    "fliki": {
+      "name": "Fliki",
+      "url": "",
+      "fallback": "https://fliki.ai/",
+      "matchPatterns": [
+        "fliki.ai"
+      ]
+    },
+    "simplified": {
+      "name": "Simplified",
+      "url": "",
+      "fallback": "https://simplified.com/",
+      "matchPatterns": [
+        "affiliate.simplified.com",
+        "simplified.com"
+      ]
+    },
+    "repostit": {
+      "name": "Repostit",
+      "url": "",
+      "fallback": "https://repostit.io/",
+      "matchPatterns": [
+        "partners.repostit.io",
+        "repostit.io"
+      ]
+    },
+    "synthesia": {
+      "name": "Synthesia",
+      "url": "",
+      "fallback": "https://www.synthesia.io/",
+      "matchPatterns": [
+        "synthesia.io"
+      ]
+    },
+    "makeugc": {
+      "name": "MakeUGC",
+      "url": "",
+      "fallback": "https://makeugc.ai/",
+      "matchPatterns": [
+        "makeugc.ai"
+      ]
+    },
+    "syllaby": {
+      "name": "Syllaby",
+      "url": "",
+      "fallback": "https://syllaby.io/",
+      "matchPatterns": [
+        "syllaby.io"
+      ]
+    },
+    "clipto": {
+      "name": "Clipto",
+      "url": "",
+      "fallback": "https://www.clipto.com/",
+      "matchPatterns": [
+        "clipto.com"
+      ]
+    },
+    "creativefuel": {
+      "name": "Creative Fuel",
+      "url": "",
+      "fallback": "https://creativefuel.ai/",
+      "matchPatterns": [
+        "creativefuel.ai"
+      ]
+    },
+    "revid": {
+      "name": "Revid",
+      "url": "",
+      "fallback": "https://www.revid.ai/",
+      "matchPatterns": [
+        "revid.ai"
+      ]
+    }
+  }
+}

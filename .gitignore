@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+package-lock.json.bak
+
+# 构建产物（由 GitHub Actions 生成并部署，不需要进仓库）
+site/
+
+# 内部工作目录（调研报告、注册清单、AI 记忆、自动化配置）
+# 这些不进公开仓库，避免内部笔记被发布出去
+outputs/
+.workbuddy-ai/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+
+# 编辑器
+.vscode/
+.idea/

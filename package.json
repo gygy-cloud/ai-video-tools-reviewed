@@ -1,0 +1,16 @@
+{
+  "name": "affiliate-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 视频联盟营销内容站 · Markdown 自动构建 + 联盟链接注入",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "build:watch": "node scripts/build-site.mjs --watch",
+    "serve": "node scripts/serve.mjs",
+    "check": "node scripts/build-site.mjs --check"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}
