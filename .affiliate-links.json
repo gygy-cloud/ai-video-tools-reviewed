@@ -41,7 +41,7 @@
     },
     "zebracat": {
       "name": "Zebracat",
-      "url": "",
+      "url": "https://studio.zebracat.ai/signup/?via=ye",
       "fallback": "https://www.zebracat.ai/",
       "matchPatterns": [
         "zebracat.ai"
