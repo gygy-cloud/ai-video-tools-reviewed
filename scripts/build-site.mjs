@@ -70,6 +70,23 @@ function resolveBase(site) {
 /** 把站内绝对路径补上部署前缀 */
 const link = (p) => `${BASE}${p.startsWith('/') ? p : '/' + p}`;
 
+/**
+ * 正文里手写的站内链接（如 [另一篇](/posts/foo/)）也要补前缀，
+ * 否则在 GitHub Pages 项目页上会跳到用户根目录 404。
+ * 已经是 BASE 开头的跳过，避免重复加前缀。
+ */
+function applyBaseToContent(html) {
+  if (!BASE) return html;
+  const fix = (attr) => (whole, p) => {
+    if (p.startsWith('//')) return whole; // 协议相对，属外链
+    if (p === BASE || p.startsWith(BASE + '/')) return whole;
+    return `${attr}="${BASE}${p}"`;
+  };
+  return html
+    .replace(/href="(\/[^"]*)"/g, fix('href'))
+    .replace(/src="(\/[^"]*)"/g, fix('src'));
+}
+
 /* ------------------------------------------------------------------ */
 /* 1. 配置                                                             */
 /* ------------------------------------------------------------------ */
@@ -192,8 +209,21 @@ function parseContent(raw) {
   return { meta, body: text.trim() };
 }
 
+/** 还原 HTML 实体，否则 &quot; &#39; 会被当成普通字符混进锚点 */
+function decodeEntities(s) {
+  return String(s)
+    .replace(/&quot;/g, '"')
+    .replace(/&#0*39;|&apos;/g, "'")
+    .replace(/&#x27;/gi, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&')
+    .replace(/&#(\d+);/g, (m, d) => String.fromCharCode(Number(d)));
+}
+
 function slugify(text) {
-  return String(text)
+  return decodeEntities(String(text))
     .replace(/<[^>]+>/g, '')
     .toLowerCase()
     .replace(/[^\p{L}\p{N}\s-]/gu, '')
@@ -418,6 +448,9 @@ function build() {
 
     // ④ 标题 id + 锚点修复
     html = addHeadingIds(html, report);
+
+    // ④.5 正文里的站内绝对链接补部署前缀
+    html = applyBaseToContent(html);
 
     // ⑤ 包一层文章容器
     const articleBody = `<article class="post">
