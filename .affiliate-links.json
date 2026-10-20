@@ -9,7 +9,7 @@
   "site": {
     "name": "AI Video Tools Reviewed",
     "tagline": "Independent reviews of AI video tools — real pricing, commission terms, and the catches vendors bury in the fine print.",
-    "baseUrl": "",
+    "baseUrl": "https://gygy-cloud.github.io/ai-video-tools-reviewed",
     "author": "",
     "lang": "en"
   },

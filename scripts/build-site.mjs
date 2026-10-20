@@ -37,6 +37,40 @@ const log = (...a) => { if (!QUIET) console.log(...a); };
 const warn = (...a) => console.warn(...a);
 
 /* ------------------------------------------------------------------ */
+/* 0. 部署路径前缀                                                     */
+/* ------------------------------------------------------------------ */
+/*
+ * GitHub Pages 的「项目页」把站点放在 /<仓库名>/ 子路径下，而不是域名根。
+ * 所有内部链接（导航、样式表、文章列表）如果写成 "/about/" 这种根绝对路径，
+ * 线上会跳到用户名根目录并 404。本地预览时前缀为空，行为不变。
+ *
+ * 前缀来源优先级：环境变量 SITE_BASE > site.baseUrl 的路径部分 > 无前缀
+ */
+let BASE = '';
+
+function resolveBase(site) {
+  let p = process.env.SITE_BASE || '';
+  if (!p && site && site.baseUrl) {
+    try {
+      p = new URL(site.baseUrl).pathname;
+    } catch {
+      p = '';
+    }
+  }
+  p = String(p).trim().replace(/\/+$/, '');
+  // 只接受干净的 URL 路径，防止 Windows shell 把 "/xxx" 转成 "C:/..."
+  if (p && !/^\/[\w\-./]*$/.test(p)) {
+    warn(`⚠️  SITE_BASE 不是合法路径（${p}），已忽略。Windows 下请直接配置 site.baseUrl`);
+    p = '';
+  }
+  if (p && !p.startsWith('/')) p = '/' + p;
+  return p === '/' ? '' : p;
+}
+
+/** 把站内绝对路径补上部署前缀 */
+const link = (p) => `${BASE}${p.startsWith('/') ? p : '/' + p}`;
+
+/* ------------------------------------------------------------------ */
 /* 1. 配置                                                             */
 /* ------------------------------------------------------------------ */
 
@@ -258,10 +292,10 @@ function pageTemplate({ site, title, description, body, canonical, isHome, posts
   const siteName = site.name || 'Affiliate Reviews';
   const nav = `<header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/">${escapeHtml(siteName)}</a>
+    <a class="brand" href="${link('/')}">${escapeHtml(siteName)}</a>
     <nav class="nav">
-      <a href="/">Reviews</a>
-      <a href="/about/">About</a>
+      <a href="${link('/')}">Reviews</a>
+      <a href="${link('/about/')}">About</a>
     </nav>
   </div>
 </header>`;
@@ -284,7 +318,7 @@ function pageTemplate({ site, title, description, body, canonical, isHome, posts
 <title>${escapeHtml(title)}</title>
 <meta name="description" content="${escapeHtml(description || '')}">
 ${canonical ? `<link rel="canonical" href="${escapeHtml(canonical)}">` : ''}
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="${link('/assets/style.css')}">
 </head>
 <body>
 ${nav}
@@ -305,6 +339,8 @@ function build() {
   const cfg = loadConfig();
   const patternIndex = buildPatternIndex(cfg);
   const site = cfg.site;
+  BASE = resolveBase(site);
+  if (BASE) log(`🔗 部署路径前缀：${BASE}`);
 
   const report = {
     posts: [],
@@ -441,7 +477,7 @@ ${html}
   const list = posts
     .map(
       (p) => `  <li class="card">
-    <a href="/posts/${p.slug}/">
+    <a href="${link(`/posts/${p.slug}/`)}">
       <time datetime="${p.date}">${p.date}</time>
       <h2>${escapeHtml(p.title)}</h2>
       ${p.description ? `<p>${escapeHtml(p.description)}</p>` : ''}
@@ -506,7 +542,9 @@ third-party data, we say so in the article.</p>
   }
 
   // robots + sitemap
-  fs.writeFileSync(path.join(SITE_DIR, 'robots.txt'), 'User-agent: *\nAllow: /\n', 'utf8');
+  const robots = ['User-agent: *', 'Allow: /'];
+  if (site.baseUrl) robots.push(`Sitemap: ${site.baseUrl.replace(/\/$/, '')}/sitemap.xml`);
+  fs.writeFileSync(path.join(SITE_DIR, 'robots.txt'), robots.join('\n') + '\n', 'utf8');
   if (site.baseUrl) {
     const base = site.baseUrl.replace(/\/$/, '');
     const urls = [`${base}/`, `${base}/about/`, ...posts.map((p) => `${base}/posts/${p.slug}/`)];

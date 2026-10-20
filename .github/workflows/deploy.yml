@@ -46,6 +46,10 @@ jobs:
 
       - name: Build site
         run: npm run build
+        env:
+          # GitHub Pages 项目页部署在 /<仓库名>/ 子路径下，
+          # 用仓库名自动推导链接前缀，仓库改名也不会失效
+          SITE_BASE: /${{ github.event.repository.name }}
 
       - name: Verify build output
         run: |
