@@ -17,6 +17,9 @@ Thumbs.db
 .env
 .env.local
 
+# 抓取/渲染临时文件
+.tmp/
+
 # 编辑器
 .vscode/
 .idea/
