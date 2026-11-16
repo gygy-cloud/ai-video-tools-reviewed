@@ -146,6 +146,14 @@
       "matchPatterns": [
         "revid.ai"
       ]
+    },
+    "dreamwild": {
+      "name": "DreamWild",
+      "url": "",
+      "fallback": "https://dreamwild.ai/",
+      "matchPatterns": [
+        "dreamwild.ai"
+      ]
     }
   }
 }
