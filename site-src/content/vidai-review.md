@@ -3,21 +3,21 @@ SEO METADATA
 ---
 Title: Vid.AI Review (2026): 33% Lifetime Affiliate Terms, a 60-Day Cookie, and the Credit Math Nobody Publishes
 Slug: vidai-review
-Meta Description: Vid.AI review for 2026 — verified pricing from $39/mo, the avatar credit arithmetic the page leaves out, and affiliate terms confirmed at source: 33% lifetime, 60-day cookie, $50 payout.
+Meta Description: Vid.AI review 2026: verified $59/mo pricing after the November rise, the avatar credit math it omits, and 33% lifetime affiliate terms with a 60-day cookie.
 Target Keyword: vid.ai review
 Secondary Keywords: vid.ai pricing, vid.ai affiliate program, is vid.ai worth it, faceless youtube ai video generator, vid.ai vs zebracat
-Date: 2026-10-26
-Word Count: ~2,000
+Date: 2026-11-27
+Word Count: ~2,100
 Format: review
 ---
 
 # Vid.AI Review (2026): 33% Lifetime Affiliate Terms, a 60-Day Cookie, and the Credit Math Nobody Publishes
 
-**Quick Verdict**: Vid.AI is a faceless-video factory: type an idea, get a script, voiceover, footage, captions and a finished render. Plans start at $39/month and there is **no free trial**. The affiliate terms are the cleanest I have verified in this niche: 33% recurring for the life of the customer, 60-day last-click cookie, free to join, $50 minimum. **4.0 / 5** product, **4.6 / 5** program.
+**Quick Verdict**: Vid.AI is a faceless-video factory: type an idea, get a script, voiceover, footage, captions and a finished render. Plans start at **$59/month** — Starter rose from $39 in November 2026 — and there is **no free trial**. The affiliate terms are the cleanest I have verified in this niche: 33% recurring for the life of the customer, 60-day last-click cookie, free to join, $50 minimum. **4.0 / 5** product, **4.6 / 5** program.
 
-> **FTC Disclosure**: This page contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. Every number below was read off Vid.AI's own pricing and affiliate pages on October 26, 2026. Where the vendor does not state something, I say "not published" rather than guessing.
+> **FTC Disclosure**: This page contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. Every number below was read off Vid.AI's own pricing and affiliate pages on November 27, 2026. Where the vendor does not state something, I say "not published" rather than guessing.
 
-**Last updated**: October 26, 2026. **Start here:** {{aff:vidai|See current Vid.AI plans and pricing}}
+**Last updated**: November 27, 2026. **Start here:** {{aff:vidai|See current Vid.AI plans and pricing}}
 
 ---
 
@@ -27,21 +27,27 @@ Vid.AI is a browser-based generator for people who publish video at volume witho
 
 The pipeline is single-pass: you supply an idea, and it writes the script, generates a voiceover, picks stock footage, times captions to the words and lays music underneath. Every plan carries the same toolkit — tiers differ only in volume and which models you can reach. Two features are unusual at this price: **Animated Avatars** (a presenter in your own style that lip-syncs and gestures) and an **MCP server** for generating videos from Claude or ChatGPT.
 
-That is the real tier gate, and the pricing page buries it. **Starter reaches Seedance 1 Pro Fast and Wan 2.2.** Veo 3.1, Seedance 2.5 and Kling 2.5 Turbo are marked "Unlock with Plus." If model quality is why you are buying, $39/month does not buy it.
+That is the real tier gate, and the pricing page buries it. **Starter reaches Seedance 1 Pro Fast and Wan 2.2.** Veo 3.1, Seedance 2.5 and Kling 2.5 Turbo are marked "Unlock with Plus." If model quality is why you are buying, $59/month does not buy it.
 
 ## Vid.AI Pricing in 2026
 
-All figures from vid.ai/pricing, read October 26, 2026. Prices in USD.
+All figures from vid.ai/pricing, read **November 27, 2026**. Prices in USD.
 
 | Plan | Monthly | Yearly | 1-min short-form / mo | 10-min long-form / mo | Max length |
 |---|---|---|---|---|---|
-| **Starter** | $39 | $369/yr (≈$30.75/mo) | 40 videos | 4 videos | 20 min |
-| **Plus** | $99 | $947/yr (≈$78.92/mo) | 120 videos | 12 videos | 20 min |
-| **Pro** | $199 | $1,919/yr (≈$159.92/mo) | 300 videos | 30 videos | 20 min |
+| **Starter** | **$59** | **$549/yr** (≈$45.75/mo) | 40 videos | 4 videos | 20 min |
+| **Plus** | $99 | $947/yr (≈$78.92/mo) | 120 videos | 12 videos | **60 min** |
+| **Pro** | $199 | $1,919/yr (≈$159.92/mo) | 300 videos | 30 videos | **60 min** |
 
-Annual billing is advertised as "save up to 21%," and the arithmetic holds: Starter 21.2%, Plus 20.3%, Pro 19.7% — the "up to" is just the Starter number.
+**Starter went up.** On October 26, 2026 the entry tier was $39/month or $369/year. As of November 27 it is **$59/month or $549/year** — a 51% rise on the monthly price. Plus and Pro are unchanged. The affiliate page's own earnings calculator now uses $59 too, so this is the standing price rather than a temporary experiment.
+
+Annual billing is advertised as "save up to 22%," and the arithmetic holds: Starter 22.5%, Plus 20.3%, Pro 19.6% — the "up to" is just the Starter number.
+
+**Plus and Pro now reach 60-minute videos.** The long-form ceiling used to be 20 minutes across every tier; it is now 20 on Starter and 60 on the two tiers above. Starter's 20-minute cap is unchanged.
 
 **There is no free trial.** The FAQ says it plainly: "Every video costs us real compute to generate, so we don't offer free trials." Instead you get a **30-day refund on unused credits** by emailing support@vid.ai — you are refunded on credits you did not burn, not on the subscription. Eligible new subscribers also get **50% off their first month** on monthly plans, though the page shows it only "if you qualify."
+
+**One inconsistency to note:** at the time of writing the site ran a Black Friday banner offering "up to 60% off" the first month with code `BLACKFRIDAY60` (through November 29), while the FAQ still describes the standing discount as 50%. Both numbers are on the page simultaneously. Treat 50% as the normal case and 60% as a promotion that expires.
 
 ## The Credit Math the Pricing Page Does Not Reconcile
 
@@ -71,13 +77,13 @@ This is arithmetic from published per-avatar costs, not a measured benchmark, an
 
 **Credit opacity is the biggest product problem.** The pricing page sells videos, the FAQ sells credits, and the only published conversion is for avatars. You cannot compute your cost per video before buying.
 
-**Starter is model-starved** — no Veo 3.1, no Seedance 2.5, no Kling 2.5 Turbo — yet it is the tier most people start on. **Long-form stops at 20 minutes**, which disqualifies 30–60 minute compilation channels outright.
+**Starter is model-starved** — no Veo 3.1, no Seedance 2.5, no Kling 2.5 Turbo — yet it is the tier most people start on. **Starter also caps long-form at 20 minutes**, which disqualifies 30–60 minute compilation channels outright; Plus and Pro lift that ceiling to 60 minutes.
 
 **Social proof is self-reported.** 4.8/5, "500+ five-star reviews" and "100K+ creators" appear on Vid.AI's own pages with no link to an independent platform; I could not verify them against G2, Capterra or Trustpilot.
 
 ## Vid.AI Affiliate Terms, Verified at Source
 
-Everything below is from **vid.ai/affiliate**, read October 26, 2026.
+Everything below is from **vid.ai/affiliate**, read October 26, 2026 and re-checked November 27, 2026 — no terms changed in between.
 
 | Term | Value |
 |---|---|
@@ -88,7 +94,7 @@ Everything below is from **vid.ai/affiliate**, read October 26, 2026.
 | Payout | Monthly via **Tolt**, minimum **$50**, PayPal / Wise |
 | Cost to join | **Free** — "Free to join · Tracked and paid through Tolt" |
 | Dashboard | affiliates.vid.ai |
-| Per-customer value | $12.87/mo (Starter) · $32.67/mo (Plus) · $65.67/mo (Pro); 33% of the full yearly payment on annual plans |
+| Per-customer value | **$19.47/mo** (Starter) · $32.67/mo (Plus) · $65.67/mo (Pro); 33% of the full yearly payment on annual plans ($181 / $313 / $633) |
 
 The rules that constrain how you promote it:
 
@@ -134,7 +140,8 @@ Vid.AI and Zebracat are the only two here where a vendor page states both a long
 - No free trial; refunds apply only to unused credits
 - Credit-to-video conversion published only for avatars
 - Starter excludes Veo 3.1, Seedance 2.5 and Kling 2.5 Turbo
-- 20-minute maximum video length
+- 20-minute maximum on Starter (Plus and Pro reach 60)
+- Entry price rose from $39 to $59 in November 2026
 - Social proof self-reported, not independently verifiable
 - First commission reduced by the 50%-off first month
 
@@ -142,9 +149,9 @@ Vid.AI and Zebracat are the only two here where a vendor page states both a long
 
 **A good fit if** you run one or more faceless YouTube or short-form channels and your bottleneck is production volume, not creative direction.
 
-**A poor fit if** you need long-form beyond 20 minutes, want to test output before spending money, or plan to lean on avatars — in which case read the credit section twice and start monthly, not annual.
+**A poor fit if** you need long-form beyond 20 minutes on the entry tier, want to test output before spending money, or plan to lean on avatars — in which case read the credit section twice and start monthly, not annual.
 
-Against [Zebracat](/posts/zebracat-review/), which costs the same $39 at entry, Vid.AI wins on faceless long-form, named formats, avatars and MCP; Zebracat wins on having a real free tier.
+Against [Zebracat](/posts/zebracat-review/), Vid.AI used to cost the same $39 at entry. **After the November increase to $59, Vid.AI is now $20/month more expensive to start** — worth saying plainly, because it changes the comparison. Vid.AI still wins on faceless long-form, named formats, avatars and MCP; Zebracat wins on entry price and on having a real free tier.
 
 ## FAQ
 
@@ -168,10 +175,10 @@ Yes — the affiliate page names "blogs" among the channels that work. You canno
 
 **My recommendation**: start on Starter monthly, keep avatars out of month one so you can measure real credit burn, and move to annual only once you know your cost per video.
 
-{{aff:vidai|Get started with Vid.AI — plans from $39/month}}
+{{aff:vidai|Get started with Vid.AI — plans from $59/month}}
 
 ## Methodology and Sources
 
-Every figure was read directly from the vendor on **October 26, 2026**: **vid.ai/affiliate** (commission, duration, cookie, hold period, payout terms, rules) and **vid.ai/pricing** (prices, allowances, model tiers, avatar credit costs, refund policy). The OpenAffiliate record was used only for cross-checking, and matched on every field.
+Every figure was read directly from the vendor on **November 27, 2026**, and originally on October 26, 2026: **vid.ai/affiliate** (commission, duration, cookie, hold period, payout terms, rules) and **vid.ai/pricing** (prices, allowances, model tiers, avatar credit costs, refund policy). The October figures were re-checked against the November page; the only change was the Starter price and the Plus/Pro length ceiling, both reflected above. The OpenAffiliate record was used only for cross-checking, and matched on every field.
 
 Two disclosures: the credit arithmetic is **derived from published per-avatar costs**, not measured from a live account. And I have not run a paid subscription, so there are no first-person usage claims. Where a vendor does not state a term, this article says "not stated" — it never converts silence into a number.

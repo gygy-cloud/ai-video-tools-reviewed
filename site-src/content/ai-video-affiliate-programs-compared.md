@@ -1,21 +1,21 @@
 ---
 Title: AI Video Affiliate Programs Compared (2026): Commission, Cookie Windows, and Payout Terms
 Slug: ai-video-affiliate-programs-compared
-Meta Description: Six AI video affiliate programs compared on verified terms — commission rates from 20% to 40%, cookie windows from 30 to 90 days, minimum payouts, and which figures vendors do not publish.
+Meta Description: Seven AI video affiliate programs compared on verified terms: real commission rates, cookie windows from 30 to 90 days, payout thresholds, and what vendors hide.
 Target Keyword: ai video affiliate program
 Secondary Keywords: best ai affiliate program 2026, ai video tools affiliate commission, recurring commission ai software, affiliate cookie duration comparison
-Date: 2026-10-20
-Word Count: ~1,750
+Date: 2026-11-27
+Word Count: ~2,450
 Format: comparison
 ---
 
 # AI Video Affiliate Programs Compared (2026): Commission, Cookie Windows, and Payout Terms
 
-**Quick Answer**: Among the six AI video and creative programs compared here, commission rates run from 20% to 40% and cookie windows from 30 to 90 days. The headline percentage is the least useful number on the page. **Cookie window × average plan value** predicts your income far better than the commission rate does — and it is the term vendors most often leave out.
+**Quick Answer**: Among the seven AI video and creative programs compared here, commission rates run from 20% to 40% and cookie windows from 30 to 90 days. The headline percentage is the least useful number on the page. **Cookie window × average plan value** predicts your income far better than the commission rate does — and it is the term vendors most often leave out.
 
 > **FTC Disclosure**: This page contains affiliate links. If you purchase through them, I may earn a commission at no extra cost to you. Every figure below is attributed to its source. Where a vendor publishes nothing, the table says "not stated" instead of guessing.
 
-**Last updated**: October 20, 2026
+**Last updated**: November 27, 2026 — commission figures for Vid.AI and Simplified revised after re-checking the vendor pages and the post-signup dashboard.
 
 ---
 
@@ -51,17 +51,18 @@ This is why a 20% program with a 90-day window can outperform a 40% program with
 | **Zebracat** | 30% | **60 days** | Lifetime | $50 | PayPal / Stripe | Vendor page |
 | **Picturesque AI** | 20% | *not stated* | Lifetime | *not stated* | *not stated* | Vendor page |
 | **AdCreative.ai** | 30% → 40% tiered | *not stated* | While subscribed | **None** | Not stated | Vendor page |
-| **StoryLab.ai** | 20% | **90 days** | Lifetime | $25 | PayPal / Wise | Third-party DB |
-| **Vid.AI** | 33% | **60 days** | Lifetime | $50 | PayPal / Wise (Tolt) | Third-party DB |
-| **Simplified** | 40% or 25% | 30 or 45 days | *No lifetime claim* | $50 + 2 referrals | PayPal / Wise | Vendor pages (conflict) |
+| **StoryLab.ai** | 20% | **90 days** | Lifetime | $25 | PayPal / Wise | Vendor page |
+| **Vid.AI** | 33% | **60 days** | Lifetime | $50 | PayPal / Wise (Tolt) | Vendor page |
+| **quso.ai** | 30% | **30 days** | Lifetime | **$20** | PayPal (FirstPromoter) | Vendor page + terms |
+| **Simplified** | 40% / 25% / **20%** | 30 or 45 days | *No lifetime claim* | $50 + 2 referrals | PayPal / Wise | Vendor pages + dashboard (conflict) |
 
 Three things stand out.
 
-**Nobody in this sample publishes a complete term sheet.** AdCreative has no stated cookie. Picturesque publishes neither cookie nor payout threshold. Two of six required a third-party database because the vendor's own affiliate page could not be located.
+**Nobody in this sample publishes a complete term sheet.** AdCreative has no stated cookie and no public pricing page. Picturesque publishes neither cookie nor payout threshold. Only four of the seven rows above can be modelled without a guess.
 
-**The "lifetime" label is nearly universal** — five of six claim it. That makes it a baseline, not a differentiator. What separates these programs is the cookie window and whether the payout mechanics are transparent.
+**The "lifetime" label is nearly universal** — six of seven claim it. That makes it a baseline, not a differentiator. What separates these programs is the cookie window and whether the payout mechanics are transparent.
 
-**Simplified is the outlier on accuracy, not generosity.** Its marketing page and its signup page disagree with each other on both commission rate and cookie length, and neither mentions a lifetime commission despite third-party listings claiming one. I documented that in full in the [Simplified review](/posts/simplified-review/).
+**Simplified is the outlier on accuracy, not generosity.** Three of its own surfaces disagree on the commission rate — 40% on the marketing page, 25% on the signup page, and **20% in the dashboard after you join** — and the lowest of the three is the one that pays. Neither page mentions a lifetime commission despite third-party listings claiming one. I documented that in full in the [Simplified review](/posts/simplified-review/).
 
 ## Program-by-Program Notes
 
@@ -93,17 +94,27 @@ The catch is approval. Applicants are asked to "share your affiliate strategy an
 
 **20% lifetime, 90 days, $25 minimum, PayPal or Wise.** A 90-day cookie is the most generous attribution window here, and $25 is the lowest threshold outside AdCreative.
 
-Two caveats. First, these figures come from a third-party affiliate database, not from a vendor page I could reach — StoryLab's affiliate URL returned 404 on every path I tried, so treat the numbers as unconfirmed until you see them in the dashboard. Second, the database notes that commissions on **yearly plans are paid up front and are not monthly recurring** — meaning an annual subscriber pays you once, not twelve times.
+Two caveats. First, commissions on **yearly plans are paid up front and are not monthly recurring** — an annual subscriber pays you once, not twelve times, so the headline rate is worth 20% of one year rather than 20% of a multi-year relationship. Second, the vendor's affiliate page still carries a 2023 copyright line, so the terms have not been refreshed in a while; the numbers above were read off that page directly, but confirm them in the dashboard before you build a funnel.
 
 ### Vid.AI — highest base rate with a clear schedule
 
 **33% lifetime, 60 days, $50 minimum**, paid through Tolt via PayPal or Wise on a net-30 basis: commissions become payable 30 days after each payment, once the refund window closes, and payouts go out monthly once the balance clears $50.
 
-That is the clearest payment schedule in the comparison. Like StoryLab, these figures come from a third-party database rather than a vendor page I could verify directly.
+That is the clearest payment schedule in the comparison. One thing to watch: **Starter rose from $39 to $59 per month in November 2026**, a 51% increase, while Plus and Pro stayed at $99 and $199. Commission scales with what the customer pays, so the same referral now earns more than it did a month ago — but a $59 entry price also closes fewer sales, and any comparison still quoting $39 is out of date.
 
-### Simplified — read the fine print twice
+### quso.ai — shortest cookie, but a clause that compensates
 
-**40% on the marketing page, 25% on the signup page. Cookie of 30 days in body copy, 45 days in the FAQ on the same page.** No lifetime commission appears anywhere on either page, despite listings that claim one. Minimum payout is $50 *and* at least two referrals.
+**30% lifetime, 30 days, $20 minimum, monthly PayPal, automatic approval.** The 30-day window is the shortest in this table, and for a review site that is a real cost.
+
+Two things offset it. **Section 2.2 of the terms attributes a referral through a partner code even when the click is lost** — a short cookie matters less when the code itself carries attribution, though it only helps if the customer actually types or clicks your code. And the 30% is calculated on **net revenue**: the discounted price minus tax and payment processing fees, per section 2.1. On an annual plan sold at half price, the commission is 30% of the discounted figure, not of the list price.
+
+$20 is the lowest payout threshold here, and approval is automatic. {{aff:quso|Try quso.ai free}} · [Full quso.ai review](/posts/quso-ai-review/)
+
+### Simplified — read the fine print three times
+
+**40% on the marketing page, 25% on the signup page, 20% in the dashboard after you join.** Cookie of 30 days in body copy, 45 days in the FAQ on the same page. No lifetime commission appears anywhere on either page, despite listings that claim one. Minimum payout is $50 *and* at least two referrals.
+
+The rate falls as you move through the funnel, and the last number is the one the system executes. Joining is free and automatic, so checking costs you a few minutes — but model the income at 20%, not at the headline 40%.
 
 The product is genuinely good value. The affiliate terms are the least reliable in this comparison.
 
@@ -128,10 +139,11 @@ Take one retained customer on a mid-tier plan, using published prices.
 | Zebracat | Super Cat, $59/mo annual | $17.70 | $212 | $425 |
 | Picturesque | Ultimate, $45/mo annual | $9.00 | $108 | $216 |
 | AdCreative | Mid tier, $50/mo assumed | $15.00–$20.00 | $180–$240 | $360–$480 |
-| StoryLab | $30/mo assumed | $6.00 | $72 | $144 |
-| Vid.AI | $50/mo assumed | $16.50 | $198 | $396 |
+| StoryLab | Pro, $15/mo verified | $3.00 | $36 | $72 |
+| Vid.AI | Starter, $59/mo verified | $19.47 | $234 | $467 |
+| quso.ai | Essential, $39/mo verified | $11.70 | $140 | $281 |
 
-Two warnings about this table. AdCreative, StoryLab and Vid.AI plan prices are **assumptions**, not published figures — AdCreative does not publish a public pricing page, and I could not verify StoryLab's or Vid.AI's current tiers at source. Use the table to see the *shape* of the economics, not as a forecast.
+Three warnings about this table. AdCreative's plan price is an **assumption** — it publishes no public pricing page, so $50 is my estimate, not a vendor figure. Every row also assumes the customer stays; churn shortens all of them. And the figures are computed on **list prices**: Vid.AI's Starter is **verified at $59/month** (it was $39 until November 2026, so any older comparison using $39 understates the commission), StoryLab's Pro and quso.ai's Essential are verified at their pricing pages, but quso.ai's commission applies to net revenue, so its real per-referral payout on a discounted annual plan is lower than the row shows. Use the table to see the *shape* of the economics, not as a forecast.
 
 The shape is what matters: a 60% difference in commission rate between two programs translates into roughly $100/year per customer. Getting one extra referral a month matters far more than picking the higher percentage.
 
@@ -141,19 +153,19 @@ The shape is what matters: a 60% difference in commission rate between two progr
 
 **Brand bidding.** Bidding on a vendor's name or a misspelling in Google or Meta ads is prohibited by most programs here, and it is the fastest route to termination.
 
-**Assuming published rates are current.** Two of the six programs in this table could not be verified at a vendor page. One publishes two different commission rates on two of its own pages. Rates change quietly, and directories do not always follow.
+**Assuming published rates are current.** Two of these programs moved inside a single month: Vid.AI raised its entry price by 51%, and Simplified's rate turns out to be 20% in the dashboard against 40% on its marketing page. Rates change quietly, and directories do not always follow.
 
 **Publishing a rate you have not seen.** If a review quotes a commission rate without a source, it was probably copied from another review. That is how the 30%/180-day figure for Picturesque keeps circulating when the vendor's own page says 20%.
 
 ## Which Program Should You Pick?
 
-**If you run a written review site:** Zebracat first — 30% on a $49 average plan with 60 days of attribution is the best-tested combination here. StoryLab is worth checking if its 90-day cookie is confirmed, but 20% on a lower-priced product means less per customer.
+**If you run a written review site:** Zebracat first — 30% on a $49 average plan with 60 days of attribution is the best-tested combination here. quso.ai is the alternative when you want the lowest payout threshold and automatic approval, at the cost of a 30-day window. StoryLab's 90 days is the longest, but 20% on a $15 product is $3 a month per customer.
 
 **If you run video or social:** AdCreative has the highest ceiling and no payout threshold, but the approval gate is real and the cookie is unpublished. Zebracat's finished-video workflow also fits this audience, since your content is already video.
 
 **If you want volume over value:** Picturesque. A $9 entry point and a free tier with no card convert cold traffic better than anything else here. You are accepting a 20% rate and an unknown cookie window to get that.
 
-**If you want the least risk of a surprise:** Vid.AI's net-30 schedule and Tolt infrastructure are the most transparent payment mechanics in the table — once you confirm the rates in the dashboard.
+**If you want the least risk of a surprise:** Vid.AI's net-30 schedule and Tolt infrastructure are the most transparent payment mechanics in the table. quso.ai runs FirstPromoter with a written terms page that covers payout timing, tax forms and rate changes clause by clause.
 
 ## How to Verify Any Affiliate Program Yourself
 
@@ -169,13 +181,13 @@ If a vendor will not answer a direct question about cookie duration in writing, 
 ## FAQ
 
 **Which AI video affiliate program pays the most?**
-AdCreative.ai reaches 40%, but only at the Gold tier above $5,000/month in referred revenue; the base is 30%. Vid.AI pays 33% flat. Zebracat pays 30% with the most clearly documented terms. The highest rate is not automatically the highest income.
+AdCreative.ai reaches 40%, but only at the Gold tier above $5,000/month in referred revenue; the base is 30%. Vid.AI pays 33% flat. Zebracat and quso.ai pay 30%. Simplified advertises 40% but executes 20%. The highest rate is not automatically the highest income.
 
 **What is the best affiliate cookie duration?**
-Longer is better for written content, where readers take weeks to convert. In this sample, StoryLab reports 90 days, Zebracat and Vid.AI report 60, and Simplified reports 30 or 45 depending on which of its own pages you read.
+Longer is better for written content, where readers take weeks to convert. In this sample, StoryLab reports 90 days, Zebracat and Vid.AI report 60, quso.ai reports 30, and Simplified reports 30 or 45 depending on which of its own pages you read.
 
 **Do these programs require a paid subscription to join?**
-Zebracat is explicitly free to join. Picturesque's Creem page is a sign-in rather than an application, so there is no purchase gate. AdCreative requires an application with a strategy pitch, but not a purchase.
+Zebracat is explicitly free to join. Picturesque's Creem page is a sign-in rather than an application, so there is no purchase gate. AdCreative requires an application with a strategy pitch, but not a purchase. quso.ai approves automatically with no subscription requirement.
 
 **Can I promote these tools on a blog?**
 Zebracat names bloggers and review sites as accepted channels. Picturesque names "AI/tool reviewers." AdCreative asks for your strategy and links during approval. In all cases, paid ads, brand bidding and coupon sites are restricted or prohibited.
@@ -185,13 +197,13 @@ They run for as long as the customer stays subscribed. Rates themselves can be c
 
 ## Methodology and Sources
 
-Compiled **October 20, 2026**. Source type is marked per row because it changes how much weight the number deserves.
+Compiled **October 20, 2026**; revised **November 27, 2026**. Source type is marked per row because it changes how much weight the number deserves.
 
-**Vendor pages read directly:** `zebracat.ai/affiliate`, `zebracat.ai/pricing`, `affiliates.creem.io/join/picturesque-partners`, `aipicturesque.com/billing`, `adcreative.ai/affiliate`.
+**Vendor pages read directly:** `zebracat.ai/affiliate`, `zebracat.ai/pricing`, `affiliates.creem.io/join/picturesque-partners`, `aipicturesque.com/billing`, `adcreative.ai/affiliate`, `storylab.ai/affiliate/`, `vid.ai/affiliate`, `quso.ai/affiliate` and `quso.ai/affiliate-terms`, `simplified.com/affiliate-program`, `affiliate.simplified.com`, plus the FirstPromoter dashboard shown after signing up for Simplified.
 
-**Third-party database:** OpenAffiliate, used for StoryLab.ai and Vid.AI where vendor affiliate pages returned 404 on every path attempted. Those rows are marked "Third-party DB" and should be re-verified in the dashboard before you rely on them.
+**Correction from the first version:** StoryLab.ai and Vid.AI were originally marked "Third-party DB" because their affiliate pages returned 404 when first checked. Both pages went live since — StoryLab at `/affiliate/`, Vid.AI at `/affiliate` — and every figure in those two rows now matches the vendor's own page, with no conflict against the database. The rows have been re-marked accordingly.
 
-**Conflicts reported, not resolved:** Picturesque (20% on the vendor page vs 30% in the database, which is marked unverified); Simplified (40% vs 25%, and 30 vs 45 days, both within the vendor's own pages).
+**Conflicts reported, not resolved:** Picturesque (20% on the vendor page vs 30% in the database, which is marked unverified); Simplified (40% on the marketing page vs 25% on the signup page vs **20% in the post-signup dashboard**, plus 30 vs 45 days within the vendor's own pages).
 
 **Not published by the vendor, therefore blank in the table:** AdCreative cookie duration and payout method; Picturesque cookie duration, payout threshold and payout method; AdCreative's public pricing tiers.
 

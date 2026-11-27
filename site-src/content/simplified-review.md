@@ -3,11 +3,11 @@ SEO METADATA
 ---
 Title: Simplified Review (2026): Pricing, Features, and Affiliate Terms That Contradict Themselves
 Slug: simplified-review
-Meta Description: Honest Simplified review for 2026 — real pricing from $79/mo, what the tool does well, and why Simplified's own affiliate pages disagree on commission and cookie terms.
+Meta Description: Honest Simplified review for 2026 — real pricing, what the tool does well, and why its affiliate commission shows 40%, 25% and 20% on three different pages.
 Target Keyword: simplified review
 Secondary Keywords: simplified pricing, simplified affiliate program, is simplified worth it, simplified vs canva, best all-in-one ai content tool 2026
-Date: 2026-10-20
-Word Count: ~1,950
+Date: 2026-11-27
+Word Count: ~2,350
 Format: review
 ---
 
@@ -17,7 +17,7 @@ Format: review
 
 > **FTC Disclosure**: This page contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. I only recommend products I've personally used or thoroughly evaluated.
 
-**Last updated**: October 20, 2026
+**Last updated**: November 27, 2026 — commission section revised after signing up and reading the dashboard
 
 ---
 
@@ -50,19 +50,21 @@ On scale, Simplified's own site claims **15 million+ active users**, **12+ nativ
 
 This is the part most Simplified reviews get wrong, including the version of this article we originally published. Simplified's affiliate program is genuinely attractive on paper — but its own pages do not agree on what the terms are.
 
-Here is what we found by reading both official pages on **October 20, 2026**:
+Here is what we found by reading both official pages on **October 20, 2026** — and, from **November 27, 2026**, by signing up and reading what the dashboard actually pays.
 
-| Term | simplified.com/affiliate-program | affiliate.simplified.com (signup portal) |
-|---|---|---|
-| **Commission** | 40% recurring | 25% recurring |
-| **Cookie window** | 30 days (main copy) — but **45 days** in the same page's FAQ | Not stated |
-| **Commission duration** | Not stated anywhere | Not stated anywhere |
-| **Minimum payout** | $50 **plus at least 2 referrals** | Not stated |
-| **Payment methods** | PayPal and Wise | Not stated |
+| Term | simplified.com/affiliate-program | affiliate.simplified.com (signup portal) | **Dashboard after signup** |
+|---|---|---|---|
+| **Commission** | 40% recurring | 25% recurring | **20% recurring** |
+| **Cookie window** | 30 days (main copy) — but **45 days** in the same page's FAQ | Not stated | Not stated |
+| **Commission duration** | Not stated anywhere | Not stated anywhere | Not stated |
+| **Minimum payout** | $50 **plus at least 2 referrals** | Not stated | Not stated |
+| **Payment methods** | PayPal and Wise | Not stated | PayPal (self-serve) |
 
-Two things stand out.
+Three things stand out.
 
-**First, the commission rate differs by 15 percentage points between the marketing page and the page you actually sign up on.** The marketing page leads with "Earn 40% recurring commission on every referral" and illustrates it with "if they spend $100, you earn $40." The FirstPromoter signup portal says 25%. One of these is wrong, or they apply to different plans, or the rate changed and one page wasn't updated. The program does not say which.
+**First, the commission rate takes three different values as you move through the signup funnel — and the lowest one is the one that pays.** The marketing page leads with "Earn 40% recurring commission on every referral" and illustrates it with "if they spend $100, you earn $40." The FirstPromoter signup portal says 25%. After completing signup, the dashboard's Rewards panel displays **20% recurring commission**.
+
+That last figure is the operative one. The checkbox you tick during signup binds you to the portal's 25% page, while the system executes 20%. Nothing on any of the three pages acknowledges the others. If you were choosing Simplified on the strength of a "40% recurring" headline, the real number is half that.
 
 **Second, the cookie window is stated twice on the same page and disagrees with itself.** The main copy says a signup "within 30 days" earns commission; the FAQ says the window "is 45 days." Both are on `simplified.com/affiliate-program`.
 
@@ -147,13 +149,13 @@ What follows is the realistic shape of a two-week evaluation, based on the docum
 - **Genuinely useful brand kits and resizing**, which cut production time more than any single AI feature
 - **Scheduling in the same workspace as design** — the workflow benefit that justifies the bundle
 - **15M+ users and a 4.6/5 G2 rating across 5,008+ reviews** (company-published figures)
-- **Affiliate program pays a high headline rate** — 40% on the marketing page
+- **Affiliate program is free to join and approves automatically** — no application review, live the same day
 
 ### What Could Be Better
 
 - **Master of none** — no individual module beats its dedicated best-in-class competitor
 - **Video editing depth is shallow** — timeline and audio work will push you to another tool
-- **Affiliate terms are contradictory and unverified** — 40% vs 25% commission, 30 vs 45-day cookie, no stated duration. Confirm everything in your dashboard
+- **Affiliate terms are contradictory and unverified** — 40% on the marketing page, 25% on the signup portal, **20% in the dashboard you get after signing up**. Also 30 vs 45-day cookie, no stated duration
 - **$50 minimum payout requires at least 2 referrals**, so a single lucky sale will not trigger payment
 - **Pricing has changed before** and starts at $79/mo, which is a real commitment for a solo creator
 
@@ -172,7 +174,7 @@ What follows is the realistic shape of a two-week evaluation, based on the docum
 |---|---|---|---|---|
 | **Best For** | All-in-one content ops | Design-first teams | Long-form → short video | Text → video ads |
 | **Core Strength** | Design + video + writing + scheduling | Design templates and ecosystem | Blog/article repurposing | Prompt-to-video ads |
-| **Commissions** | 40% (marketing page) / 25% (signup portal) | Varies by program | 20–50% tiered | 30% |
+| **Commissions** | 40% (marketing) / 25% (signup) / **20% (dashboard)** | Varies by program | 20–50% tiered | 30% |
 | **Commission Duration** | Not stated | Varies | Lifetime | Lifetime |
 | **Cookie Window** | 30 days — or 45 days per its own FAQ | Program-dependent | 30 days | 60 days |
 | **Minimum Payout** | $50 + at least 2 referrals | Varies | $50 | $50 |
@@ -200,11 +202,11 @@ For short-form, template-driven content — social clips, product promos, captio
 
 ### Can you make money promoting Simplified?
 
-Yes, but verify the terms before you invest in content. Simplified's marketing page advertises **40% recurring**, while its signup portal says **25%**. The cookie window is stated as **30 days** in the main copy and **45 days** in the FAQ on the same page. No official page states a commission duration. Payout requires **$50 and at least 2 referrals**, via PayPal or Wise. Check all of these in your affiliate dashboard before publishing.
+Yes, but the rate is not what the marketing suggests. The marketing page advertises **40% recurring**, the signup portal says **25%**, and the dashboard you reach after completing signup shows **20% recurring**. The 20% is what actually pays. The cookie window is stated as **30 days** in the main copy and **45 days** in the FAQ on the same page. No official page states a commission duration. Payout requires **$50 and at least 2 referrals**, via PayPal or Wise. Confirm the rate in your own dashboard before you invest in content.
 
 ### Why does this review say the terms contradict themselves?
 
-Because they do, on Simplified's own domain. `simplified.com/affiliate-program` states 40% and mentions both 30 and 45 days for the cookie; `affiliate.simplified.com` states 25%. We are reporting the conflict rather than picking the more flattering number.
+Because they do, across Simplified's own domain. `simplified.com/affiliate-program` states 40% and mentions both 30 and 45 days for the cookie; `affiliate.simplified.com` states 25%; and the post-signup dashboard displays 20%. We are reporting all three rather than picking the most flattering number.
 
 ## Final Verdict
 

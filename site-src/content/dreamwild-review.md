@@ -7,7 +7,7 @@ Meta Description: DreamWild review 2026: the published 35% lifetime commission, 
 Target Keyword: dreamwild review
 Secondary Keywords: dreamwild affiliate program, dreamwild pricing, dreamwild credits, ai video affiliate program, lifetime recurring commission
 Date: 2026-11-16
-Word Count: ~2,400
+Word Count: ~2,500
 Format: review
 ---
 
@@ -155,6 +155,8 @@ One friction point: the program is written for people who **post videos**. Onboa
 
 **How much does the DreamWild affiliate program pay?**
 35% of net revenue on every plan payment and extra-credit purchase, rising to 40% once ten referred customers have each made a first payment that cleared its 30-day hold. Clause 5.9 caps total commission on any one customer at what their payments earned DreamWild, minus processing fees and the supplier cost of their videos.
+
+**The 40% step is retroactive.** DreamWild's welcome email to new affiliates states: *"Once 10 of them pay, every later payment from all of them earns you 40%."* That wording covers the ten customers who unlocked the tier, not just referrals arriving afterwards — so the early customers are repriced upward, not stranded at 35%.
 
 **Is it really lifetime?**
 The commission period runs for the life of the customer, but you must stay an Active Creator — at least one genuine tracked click every 12 months. After 12 months without one, DreamWild may end the agreement on 30 days' notice.
