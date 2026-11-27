@@ -33,7 +33,7 @@
     },
     "storylab": {
       "name": "StoryLab.ai",
-      "url": "",
+      "url": "https://storylab.ai/?ref=ye",
       "fallback": "https://storylab.ai/",
       "matchPatterns": [
         "storylab.ai"
