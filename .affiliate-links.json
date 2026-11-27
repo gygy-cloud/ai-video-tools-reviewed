@@ -83,7 +83,7 @@
     },
     "simplified": {
       "name": "Simplified",
-      "url": "",
+      "url": "https://simplified.com/?fpr=ye-369881",
       "fallback": "https://simplified.com/",
       "matchPatterns": [
         "affiliate.simplified.com",
