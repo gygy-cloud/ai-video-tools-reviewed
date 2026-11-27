@@ -49,7 +49,7 @@
     },
     "vidai": {
       "name": "Vid.AI",
-      "url": "",
+      "url": "https://vid.ai/?ref=ye",
       "fallback": "https://vid.ai/",
       "matchPatterns": [
         "vid.ai"
