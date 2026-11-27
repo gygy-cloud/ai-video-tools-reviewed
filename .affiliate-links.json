@@ -149,7 +149,7 @@
     },
     "dreamwild": {
       "name": "DreamWild",
-      "url": "",
+      "url": "https://dreamwild.ai/s/v3jqc5hr",
       "fallback": "https://dreamwild.ai/",
       "matchPatterns": [
         "dreamwild.ai"
