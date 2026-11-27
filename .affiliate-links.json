@@ -75,7 +75,7 @@
     },
     "fliki": {
       "name": "Fliki",
-      "url": "",
+      "url": "https://fliki.ai/?via=ye-gu",
       "fallback": "https://fliki.ai/",
       "matchPatterns": [
         "fliki.ai"
