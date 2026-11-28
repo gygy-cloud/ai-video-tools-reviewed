@@ -1,21 +1,21 @@
 ---
 Title: Picturesque AI Review (2026): 100+ Models, 15 Free Credits a Day, and a Domain Problem Nobody Mentions
 Slug: picturesque-review
-Meta Description: Picturesque AI review for 2026 — 100+ image, video and audio models on one credit wallet, real pricing from $9/mo, and verified affiliate terms: 20% lifetime recurring, no stated cookie window.
+Meta Description: Picturesque AI review 2026: 100+ models on one credit wallet, pricing from $9/mo, and affiliate terms verified in the dashboard — 20% lifetime, a 180-day cookie.
 Target Keyword: picturesque ai review
 Secondary Keywords: picturesque ai pricing, picturesque affiliate program, picturesque vs kling, ai video generator credits, picturesque ai free plan
-Date: 2026-10-20
-Word Count: ~1,850
+Date: 2026-11-28
+Word Count: ~2,700
 Format: review
 ---
 
 # Picturesque AI Review (2026): 100+ Models, 15 Free Credits a Day, and a Domain Problem Nobody Mentions
 
-**Quick Verdict**: Picturesque is a credit-based studio that puts Kling, Veo, Seedance, Nano Banana, GPT Image, Suno and ElevenLabs behind one login. You are not buying a model — you are buying the ability to compare models on the same brief without four subscriptions. Pricing starts at $9/month, and the free tier gives 15 credits a day with no card. **4.1 / 5** for the product. The affiliate program pays 20% lifetime, which is lower than rivals but on a cheaper product with a real free funnel.
+**Quick Verdict**: Picturesque is a credit-based studio that puts Kling, Veo, Seedance, Nano Banana, GPT Image, Suno and ElevenLabs behind one login. You are not buying a model — you are buying the ability to compare models on the same brief without four subscriptions. Pricing starts at $9/month, and the free tier gives 15 credits a day with no card. **4.1 / 5** for the product. The affiliate program pays 20% lifetime on a cheaper product with a real free funnel — and, less obviously, it runs a **180-day attribution window**, the longest I have verified, which the vendor never mentions.
 
-> **FTC Disclosure**: This page contains affiliate links. If you purchase through them, I may earn a commission at no extra cost to you. Pricing and affiliate terms were verified at source on the date shown. Where a vendor publishes nothing, this review says "not stated" rather than filling the gap.
+> **FTC Disclosure**: This page contains affiliate links. If you purchase through them, I may earn a commission at no extra cost to you. Pricing and affiliate terms were verified at source on the date shown. Where a vendor publishes nothing, this review says "not stated" rather than filling the gap — unless the number can be measured directly, in which case the measurement is shown so you can repeat it.
 
-**Last updated**: October 20, 2026
+**Last updated**: November 28, 2026 — affiliate terms revised after the application was approved and the cookie window was measured
 
 **Free to test:** 15 credits a day, no card, all models. {{aff:picturesque|Open a free Picturesque account}}
 
@@ -128,19 +128,23 @@ Picturesque's affiliate program runs on **Creem**, not on a dedicated in-house d
 | Commission | **20%** per sale |
 | Duration | **Recurring, lifetime** — "Paid on every payment for as long as the subscription stays active" |
 | Cap | None — "No cap on earnings" |
-| Cookie window | **Not stated** |
+| Cookie window | **180 days** — not published, but measurable from the tracking link (below) |
 | Minimum payout | **Not stated** |
 | Payout method | Not stated (handled by Creem) |
 | Cost to join | Free — the page is a sign-in, not an application |
 | Ideal for (vendor's words) | "creators, educators, and **AI/tool reviewers**" |
 
-**The conflict.** A widely used third-party affiliate database lists Picturesque at **30% with a 180-day cookie**. The vendor's own Creem page says **20%**, and says nothing about a cookie window. The database entry is marked `verified: false` and sourced to community submission.
+**The conflict, resolved.** A widely used third-party affiliate database lists Picturesque at **30% with a 180-day cookie**, marked `verified: false` and sourced to community submission. The vendor's Creem page says **20%** and publishes no cookie window at all. The obvious reading — that the database is wrong on both counts — turns out to be half wrong.
 
-Two possibilities: the 30% figure is outdated (a rate that was cut), or it describes a different program. Either way, **the vendor's own page is the one that pays you**, and it says 20%. If you find a review quoting 30% and a 180-day cookie for Picturesque, that review is almost certainly copying the database rather than reading the source. I would rather publish the number that will actually appear in my dashboard.
+After the application was approved, the Creem dashboard settled the rate: **20%, recurring, lifetime**. So the database's 30% is wrong, and it has been for a while.
 
-The missing cookie window is a genuine gap. Attribution length is the single most important term for a written review site, and this program does not publish it. Ask before you invest effort — the Creem dashboard may show it after signup, but it is not on the public page.
+The cookie window went the other way. The tracking link is not a `aipicturesque.com` URL — it is `https://www.creem.io/affiliate?code=…`, which returns a 307 to `aipicturesque.com/?creem_ref=<signed token>`. The response sets a cookie called `__Host-creem_aff` with **`Max-Age=15552000`**, which is 15,552,000 seconds, which is **exactly 180 days**. The signed `creem_ref` token carries the same window: its `iat` and `exp` claims are 180 days apart to the second. Neither number is published anywhere on the affiliate page, and both are trivially readable from the redirect headers.
 
-**What the terms get right:** lifetime recurring with no cap, on a product with a real free tier. That combination means your referral can start free, convert later, and pay you for as long as they stay.
+So the database was right about the cookie and wrong about the commission, and the vendor page was right about the commission and silent about the cookie. Any review that quotes both figures together from the database gets the good number and the bad number with equal confidence — which is exactly why you should check each term separately instead of trusting or dismissing a source wholesale.
+
+One caveat on the 180 days: the `__Host-creem_aff` cookie is scoped to `creem.io`, so after the redirect the attribution rides on the `creem_ref` parameter the merchant receives. The platform's window is 180 days and the token is valid for 180 days; whether Picturesque's own checkout stores it for the full period is their implementation, not Creem's promise.
+
+**What the terms get right:** lifetime recurring with no cap, on a product with a real free tier, behind the longest attribution window in this category. That combination means your referral can start free, come back two months later, and still convert to your account.
 
 ## Do the Math on 20% vs 30%
 
@@ -152,14 +156,16 @@ Picturesque's Ultimate tier is **$45/month** on annual billing, 8,000 credits �
 
 On a like-for-like mid-tier customer, Zebracat's 30% wins by roughly 60%. Picturesque's counter-argument is volume: a free tier with no card and genuinely usable daily credits converts cold traffic at a higher rate than a $23/month tool with a limited free plan. Whether that volume advantage closes a 60% per-customer gap depends entirely on your traffic, and nobody can tell you the answer without your numbers.
 
-The term that would settle it — cookie duration — is the one Picturesque does not publish.
+The term that would settle it is cookie duration, and now that it is measurable the answer changes. Zebracat holds a click for **60 days**; Picturesque holds it for **180**. A reader who opens three tabs, signs up free, tests for a fortnight, and subscribes when a client project lands in March is a lost commission for Zebracat and a paid one for Picturesque.
+
+At a per-customer gap of roughly 60%, Picturesque needs about **1.7× the closing rate** to break even against Zebracat. A window three times longer can plausibly supply that on research-intent traffic — the exact traffic a review site gets — and cannot supply it on impulse traffic, where both programs close in minutes and the rate is all that matters.
 
 ## Picturesque vs the Alternatives
 
 | | Picturesque AI | Zebracat | AdCreative.ai |
 |---|---|---|---|
 | Commission | 20% lifetime | 30% lifetime | 30% base, up to 40% |
-| Cookie | Not stated | 60 days | Not stated |
+| Cookie | **180 days** | 60 days | Not stated |
 | Minimum payout | Not stated | $50 | **None** |
 | Free tier | 15 credits/day, no card | Full workflow, no card | Trial |
 | Entry price | $9/mo | $23/mo annual | Not published publicly |
@@ -175,6 +181,7 @@ Picturesque is the broadest of the three and the cheapest to start. Zebracat pro
 - 100+ models including Kling 3.0, Veo 3.1, Seedance 2.5, Nano Banana Pro, Suno
 - Real free tier: 15 credits/day, no card, same models as paid
 - Lifetime recurring commissions, no cap
+- **180-day attribution window** — the longest among the programs I have verified
 - Vendor explicitly names AI/tool reviewers as the target affiliate
 - Free to join — no application gate
 - Pack credits never expire, so spiky usage is cheap
@@ -183,8 +190,8 @@ Picturesque is the broadest of the three and the cheapest to start. Zebracat pro
 **Cons**
 
 - 20% is below the 30–40% norm in this category
-- Cookie window not published
-- Minimum payout not published
+- The 180-day cookie is real but never published — you have to measure it yourself
+- Minimum payout not published, and Creem's dashboard does not show it on the overview
 - `picturesque.ai` is a parked domain for sale — wrong-domain risk
 - Premium video models cost 60–156 credits, so the free tier cannot test video
 - Basic tier gets no annual discount
@@ -194,7 +201,7 @@ Picturesque is the broadest of the three and the cheapest to start. Zebracat pro
 
 **Good fit:** people who need many kinds of output — a product image, then a reel from it, then a music bed — and who would rather learn one credit system than four. Anyone who wants to compare Kling against Veo on their own brief before committing. Affiliates with high-volume, low-intent traffic, where the free tier does the converting.
 
-**Poor fit:** anyone whose work is predominantly premium text-to-video, because the free tier cannot reach it and credit burn is hard to predict. Teams that need published, contractual attribution terms before building a funnel. Anyone who wants a single finished video rather than raw model access.
+**Poor fit:** anyone whose work is predominantly premium text-to-video, because the free tier cannot reach it and credit burn is hard to predict. Teams that need a signed contract before building a funnel, since the payout threshold is still unpublished. Anyone who wants a single finished video rather than raw model access.
 
 ## FAQ
 
@@ -208,10 +215,13 @@ Yes, with limits. The free tier gives 15 credits per day, resetting at midnight 
 Basic starts at $9/month for 900 credits; Ultimate starts at $45/month for 8,000 credits on annual billing. Pro (3,500 credits) and Creator (24,000 credits) are priced by billing cycle. Annual discounts are 15% for Pro, 20% for Ultimate and 30% for Creator — Basic has none.
 
 **What commission does the Picturesque affiliate program pay?**
-20% recurring, for as long as the referred subscription stays active, with no cap. Some directories still list 30% — that figure does not match the vendor's own page.
+20% recurring, for as long as the referred subscription stays active, with no cap. The Creem dashboard confirms 20% after approval. Some directories still list 30% — that figure does not match either the vendor's page or the dashboard.
 
 **How long is the affiliate cookie?**
-Not published. Creem's join page states commission and duration but not an attribution window.
+**180 days.** The affiliate page does not publish it, but the tracking link does: `creem.io/affiliate?code=…` returns a 307 to `aipicturesque.com/?creem_ref=…` and sets a `__Host-creem_aff` cookie with `Max-Age=15552000` — 15,552,000 seconds, or exactly 180 days. The signed `creem_ref` token expires on the same schedule. That is three times Zebracat's 60-day window and twice StoryLab's 90.
+
+**What is the minimum payout?**
+Not published, and not shown on the Creem dashboard overview. Ask support before you assume it matches another Creem program.
 
 **Do Picturesque credits expire?**
 Subscription credits reset each month and do not stack. Credits bought as one-time packs never expire.
@@ -220,22 +230,24 @@ Subscription credits reset each month and do not stack. Credits bought as one-ti
 
 **Product: 4.1 / 5.** The breadth is real and the free tier is honest about its limits once you do the credit arithmetic. It loses points for credit predictability and for shipping its most interesting feature behind a flag.
 
-**Affiliate program: 3.5 / 5.** Lifetime recurring with no cap is good. Twenty percent is below market, and the two numbers that decide whether a content affiliate can plan around it — cookie window and payout threshold — are not published at all. That is not disqualifying, but it means you are taking on unknown risk.
+**Affiliate program: 3.9 / 5.** Lifetime recurring with no cap, on a free-tier product, behind a 180-day cookie — that is a better package than the published page suggests, and better than the 3.5 this review carried before the window was measured. It loses points for a 20% rate that is below the 30–40% norm, for hiding the best term it has, and for a payout threshold that is still nowhere on the public page.
 
-If you have high-volume traffic and want a free funnel, this is a reasonable program. If you write long-form reviews and need to know how long you have to close a reader, ask the vendor for the cookie window before you write anything.
+If you have high-volume traffic and want a free funnel, this is a reasonable program. If you write long-form reviews, the 180-day window is the reason to pick it over a 60-day program with a higher headline rate — just get the payout threshold in writing first, because that is now the only term you cannot verify yourself.
 
 {{aff:picturesque|Try Picturesque free — 15 credits a day}}
 
 ## Methodology
 
-Verified **October 20, 2026** against:
+Verified **October 20, 2026**; affiliate terms re-verified **November 28, 2026** after the application was approved. Sources:
 
 - `affiliates.creem.io/join/picturesque-partners` — commission rate, duration, cap, accepted affiliate types
+- **Creem affiliate dashboard** (post-approval) — confirmed 20% recurring/lifetime; the overview shows balance, customers, clicks and conversion rate but not the payout threshold
+- **The tracking link's redirect headers** — `curl -I "https://www.creem.io/affiliate?code=…"` returns a 307 to `aipicturesque.com/?creem_ref=…` and sets `__Host-creem_aff` with `Max-Age=15552000`. Both the cookie lifetime and the token's `iat`/`exp` gap resolve to 180 days
 - `aipicturesque.com/billing` — plan tiers, credit allowances, per-model credit costs, annual discounts, payment methods, credit expiry rules
 - `aipicturesque.com` — model list, free-tier description, referral banner ("20% every month")
 - `picturesque.ai` — confirmed to be a parked domain listed for sale at $34,888
-- OpenAffiliate database — cross-check only, where the 30% / 180-day figures conflict with the vendor's page
+- OpenAffiliate database — cross-check only. It was right about the 180-day cookie and wrong about the 30% commission
 
-**Not stated by the vendor, therefore not stated here:** cookie duration, minimum payout threshold, payout method. The 30% and 180-day figures that circulate elsewhere are not corroborated by any primary source I could reach.
+**Still not stated by the vendor, therefore still not stated here:** minimum payout threshold, payout method. The 180-day cookie is not stated either — it is measured, and the measurement is described above so you can repeat it.
 
 No first-hand usage claims appear in this review. Credit-per-render figures are the vendor's own published estimates and are approximate — they vary with resolution and duration.

@@ -1,21 +1,21 @@
 ---
 Title: AI Video Affiliate Programs Compared (2026): Commission, Cookie Windows, and Payout Terms
 Slug: ai-video-affiliate-programs-compared
-Meta Description: Seven AI video affiliate programs compared on verified terms: real commission rates, cookie windows from 30 to 90 days, payout thresholds, and what vendors hide.
+Meta Description: Seven AI video affiliate programs compared on verified terms: real commission rates, cookie windows from 30 to 180 days, payout thresholds, and what vendors hide.
 Target Keyword: ai video affiliate program
 Secondary Keywords: best ai affiliate program 2026, ai video tools affiliate commission, recurring commission ai software, affiliate cookie duration comparison
-Date: 2026-11-27
-Word Count: ~2,450
+Date: 2026-11-28
+Word Count: ~2,750
 Format: comparison
 ---
 
 # AI Video Affiliate Programs Compared (2026): Commission, Cookie Windows, and Payout Terms
 
-**Quick Answer**: Among the seven AI video and creative programs compared here, commission rates run from 20% to 40% and cookie windows from 30 to 90 days. The headline percentage is the least useful number on the page. **Cookie window × average plan value** predicts your income far better than the commission rate does — and it is the term vendors most often leave out.
+**Quick Answer**: Among the seven AI video and creative programs compared here, commission rates run from 20% to 40% and cookie windows from 30 to 180 days. The headline percentage is the least useful number on the page. **Cookie window × average plan value** predicts your income far better than the commission rate does — and it is the term vendors most often leave out.
 
 > **FTC Disclosure**: This page contains affiliate links. If you purchase through them, I may earn a commission at no extra cost to you. Every figure below is attributed to its source. Where a vendor publishes nothing, the table says "not stated" instead of guessing.
 
-**Last updated**: November 27, 2026 — commission figures for Vid.AI and Simplified revised after re-checking the vendor pages and the post-signup dashboard.
+**Last updated**: November 28, 2026 — Picturesque's cookie window measured from its tracking link after approval; Vid.AI and Simplified commission figures revised earlier in the same week.
 
 ---
 
@@ -49,7 +49,7 @@ This is why a 20% program with a 90-day window can outperform a 40% program with
 | Program | Commission | Cookie | Duration | Min. payout | Payout method | Source |
 |---|---|---|---|---|---|---|
 | **Zebracat** | 30% | **60 days** | Lifetime | $50 | PayPal / Stripe | Vendor page |
-| **Picturesque AI** | 20% | *not stated* | Lifetime | *not stated* | *not stated* | Vendor page |
+| **Picturesque AI** | 20% | **180 days** (measured, not published) | Lifetime | *not stated* | *not stated* | Vendor page + link headers |
 | **AdCreative.ai** | 30% → 40% tiered | *not stated* | While subscribed | **None** | Not stated | Vendor page |
 | **StoryLab.ai** | 20% | **90 days** | Lifetime | $25 | PayPal / Wise | Vendor page |
 | **Vid.AI** | 33% | **60 days** | Lifetime | $50 | PayPal / Wise (Tolt) | Vendor page |
@@ -58,7 +58,7 @@ This is why a 20% program with a 90-day window can outperform a 40% program with
 
 Three things stand out.
 
-**Nobody in this sample publishes a complete term sheet.** AdCreative has no stated cookie and no public pricing page. Picturesque publishes neither cookie nor payout threshold. Only four of the seven rows above can be modelled without a guess.
+**Nobody in this sample publishes a complete term sheet.** AdCreative has no stated cookie and no public pricing page. Picturesque publishes no payout threshold and no payout method, and its 180-day window is not on the page at all — it has to be read out of the redirect headers. Only four of the seven rows above can be modelled without a guess.
 
 **The "lifetime" label is nearly universal** — six of seven claim it. That makes it a baseline, not a differentiator. What separates these programs is the cookie window and whether the payout mechanics are transparent.
 
@@ -74,11 +74,13 @@ Bloggers and review sites are named explicitly in the accepted-channels list. Pa
 
 One inconsistency: the page body says PayPal, the FAQ on the same page says PayPal or Stripe. Minor, but confirm before building a funnel. {{aff:zebracat|Try Zebracat free}} · [Full Zebracat review](/posts/zebracat-review/)
 
-### Picturesque AI — best free funnel, weakest disclosure
+### Picturesque AI — best free funnel, longest cookie, weakest disclosure
 
 **20% lifetime, no cap, free to join through Creem.** The vendor describes the program as ideal for "creators, educators, and AI/tool reviewers."
 
-The problem is what is missing: no cookie window, no minimum payout, no payout method published. For a content affiliate, the cookie window is the term you most need, and it is absent.
+The odd part is that its best term is invisible. The affiliate page publishes no cookie window — and the real one is **180 days**, the longest in this comparison by a factor of two. You would never learn that from the page. The number is in the tracking link's redirect: `creem.io/affiliate?code=…` returns a 307 to `aipicturesque.com/?creem_ref=…` and sets a cookie with `Max-Age=15552000`, which is exactly 180 days, matching the expiry inside the signed token.
+
+What is genuinely missing is the payout side: no minimum threshold, no payout method. For a content affiliate that is the second most important term, and it is absent.
 
 Separately, `picturesque.ai` is a parked domain listed for sale — the product is at `aipicturesque.com`. Verify any link before you publish it. {{aff:picturesque|Try Picturesque free}} · [Full Picturesque review](/posts/picturesque-review/)
 
@@ -90,9 +92,9 @@ Payout mechanics are the best in this comparison: the FAQ states **no minimum pa
 
 The catch is approval. Applicants are asked to "share your affiliate strategy and include any relevant links." That is a real gate, and a thin site will not clear it. Cookie duration is not stated anywhere on the affiliate page. Runs on PartnerStack. {{aff:adcreative|Try AdCreative.ai}}
 
-### StoryLab.ai — longest cookie in the sample
+### StoryLab.ai — longest published cookie
 
-**20% lifetime, 90 days, $25 minimum, PayPal or Wise.** A 90-day cookie is the most generous attribution window here, and $25 is the lowest threshold outside AdCreative.
+**20% lifetime, 90 days, $25 minimum, PayPal or Wise.** Ninety days is the longest window any of these vendors actually publishes — Picturesque runs longer but says nothing about it, so StoryLab is the longest one you can confirm without measuring anything.
 
 Two caveats. First, commissions on **yearly plans are paid up front and are not monthly recurring** — an annual subscriber pays you once, not twelve times, so the headline rate is worth 20% of one year rather than 20% of a multi-year relationship. Second, the vendor's affiliate page still carries a 2023 copyright line, so the terms have not been refreshed in a while; the numbers above were read off that page directly, but confirm them in the dashboard before you build a funnel.
 
@@ -155,15 +157,15 @@ The shape is what matters: a 60% difference in commission rate between two progr
 
 **Assuming published rates are current.** Two of these programs moved inside a single month: Vid.AI raised its entry price by 51%, and Simplified's rate turns out to be 20% in the dashboard against 40% on its marketing page. Rates change quietly, and directories do not always follow.
 
-**Publishing a rate you have not seen.** If a review quotes a commission rate without a source, it was probably copied from another review. That is how the 30%/180-day figure for Picturesque keeps circulating when the vendor's own page says 20%.
+**Publishing a rate you have not seen.** If a review quotes a commission rate without a source, it was probably copied from another review. Picturesque is the clean example: the figure circulating as "30% with a 180-day cookie" is half right. The 180 days is real — I measured it — and the 30% is wrong; the dashboard pays 20%. Bundled numbers travel together and fail separately, so check each one against its own source.
 
 ## Which Program Should You Pick?
 
-**If you run a written review site:** Zebracat first — 30% on a $49 average plan with 60 days of attribution is the best-tested combination here. quso.ai is the alternative when you want the lowest payout threshold and automatic approval, at the cost of a 30-day window. StoryLab's 90 days is the longest, but 20% on a $15 product is $3 a month per customer.
+**If you run a written review site:** Zebracat first — 30% on a $49 average plan with 60 days of attribution is the best-tested combination here. If your readers take months to convert, Picturesque's **180-day window** beats every published cookie in the table despite the lower rate. quso.ai is the alternative when you want the lowest payout threshold and automatic approval, at the cost of a 30-day window. StoryLab's 90 days is long, but 20% on a $15 product is $3 a month per customer.
 
 **If you run video or social:** AdCreative has the highest ceiling and no payout threshold, but the approval gate is real and the cookie is unpublished. Zebracat's finished-video workflow also fits this audience, since your content is already video.
 
-**If you want volume over value:** Picturesque. A $9 entry point and a free tier with no card convert cold traffic better than anything else here. You are accepting a 20% rate and an unknown cookie window to get that.
+**If you want volume over value:** Picturesque. A $9 entry point and a free tier with no card convert cold traffic better than anything else here. You are accepting a 20% rate and an unpublished payout threshold to get that — the 180-day cookie is a bonus the vendor does not even advertise.
 
 **If you want the least risk of a surprise:** Vid.AI's net-30 schedule and Tolt infrastructure are the most transparent payment mechanics in the table. quso.ai runs FirstPromoter with a written terms page that covers payout timing, tax forms and rate changes clause by clause.
 
@@ -184,10 +186,10 @@ If a vendor will not answer a direct question about cookie duration in writing, 
 AdCreative.ai reaches 40%, but only at the Gold tier above $5,000/month in referred revenue; the base is 30%. Vid.AI pays 33% flat. Zebracat and quso.ai pay 30%. Simplified advertises 40% but executes 20%. The highest rate is not automatically the highest income.
 
 **What is the best affiliate cookie duration?**
-Longer is better for written content, where readers take weeks to convert. In this sample, StoryLab reports 90 days, Zebracat and Vid.AI report 60, quso.ai reports 30, and Simplified reports 30 or 45 depending on which of its own pages you read.
+Longer is better for written content, where readers take weeks to convert. In this sample, Picturesque runs **180 days** but does not publish it, StoryLab publishes 90, Zebracat and Vid.AI report 60, quso.ai reports 30, and Simplified reports 30 or 45 depending on which of its own pages you read.
 
 **Do these programs require a paid subscription to join?**
-Zebracat is explicitly free to join. Picturesque's Creem page is a sign-in rather than an application, so there is no purchase gate. AdCreative requires an application with a strategy pitch, but not a purchase. quso.ai approves automatically with no subscription requirement.
+Zebracat is explicitly free to join. Picturesque runs through a Creem application that is reviewed manually — approved the day after submission in this case, with no purchase required. AdCreative requires an application with a strategy pitch, but not a purchase. quso.ai approves automatically with no subscription requirement.
 
 **Can I promote these tools on a blog?**
 Zebracat names bloggers and review sites as accepted channels. Picturesque names "AI/tool reviewers." AdCreative asks for your strategy and links during approval. In all cases, paid ads, brand bidding and coupon sites are restricted or prohibited.
@@ -197,14 +199,18 @@ They run for as long as the customer stays subscribed. Rates themselves can be c
 
 ## Methodology and Sources
 
-Compiled **October 20, 2026**; revised **November 27, 2026**. Source type is marked per row because it changes how much weight the number deserves.
+Compiled **October 20, 2026**; revised **November 27 and 28, 2026**. Source type is marked per row because it changes how much weight the number deserves.
 
 **Vendor pages read directly:** `zebracat.ai/affiliate`, `zebracat.ai/pricing`, `affiliates.creem.io/join/picturesque-partners`, `aipicturesque.com/billing`, `adcreative.ai/affiliate`, `storylab.ai/affiliate/`, `vid.ai/affiliate`, `quso.ai/affiliate` and `quso.ai/affiliate-terms`, `simplified.com/affiliate-program`, `affiliate.simplified.com`, plus the FirstPromoter dashboard shown after signing up for Simplified.
 
+**Measured rather than read:** Picturesque's 180-day window. `curl -I "https://www.creem.io/affiliate?code=…"` returns a 307 to `aipicturesque.com/?creem_ref=…` with `Set-Cookie: __Host-creem_aff=…; Max-Age=15552000`. 15,552,000 seconds is 180 days, and the `creem_ref` token's `iat`/`exp` gap is the same. The vendor publishes none of this.
+
 **Correction from the first version:** StoryLab.ai and Vid.AI were originally marked "Third-party DB" because their affiliate pages returned 404 when first checked. Both pages went live since — StoryLab at `/affiliate/`, Vid.AI at `/affiliate` — and every figure in those two rows now matches the vendor's own page, with no conflict against the database. The rows have been re-marked accordingly.
 
-**Conflicts reported, not resolved:** Picturesque (20% on the vendor page vs 30% in the database, which is marked unverified); Simplified (40% on the marketing page vs 25% on the signup page vs **20% in the post-signup dashboard**, plus 30 vs 45 days within the vendor's own pages).
+**Conflicts reported, not resolved:** Simplified (40% on the marketing page vs 25% on the signup page vs **20% in the post-signup dashboard**, plus 30 vs 45 days within the vendor's own pages).
 
-**Not published by the vendor, therefore blank in the table:** AdCreative cookie duration and payout method; Picturesque cookie duration, payout threshold and payout method; AdCreative's public pricing tiers.
+**Conflicts resolved since the first version:** Picturesque. The database listed 30% and 180 days; the vendor page listed 20% and no cookie. The dashboard pays **20%**, and the tracking link's `Set-Cookie: __Host-creem_aff; Max-Age=15552000` measures **180 days**. One number was right, the other was wrong, and the vendor page was silent on the one that mattered most.
+
+**Not published by the vendor, therefore blank in the table:** AdCreative cookie duration and payout method; Picturesque minimum payout and payout method; AdCreative's public pricing tiers.
 
 No first-hand usage claims appear in this comparison. Earnings figures are arithmetic on published or explicitly assumed prices, not forecasts.
